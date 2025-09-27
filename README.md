@@ -30,6 +30,8 @@ bash
 Copiar
 Editar
 python appmovil.py
+
+
 🎨 Funcionalidades
 Selector de comida: Desplegable con diferentes platillos disponibles y sus precios.
 
@@ -52,6 +54,8 @@ comidas = {
     "carne en guiso": 20,
     "arroz": 5
 }
+
+
 📁 Estructura de Archivos
 css
 Copiar
