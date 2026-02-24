@@ -1,10 +1,10 @@
-📱 RestaurantApp
+RestaurantApp
 Aplicación móvil sencilla desarrollada con Python y Kivy para gestionar pedidos de comida, permitiendo seleccionar platillos, agregarlos a una lista, eliminarlos y mostrar un resumen con el total a pagar.
 
-📸 Capturas de Pantalla
+Capturas de Pantalla
 (Agrega aquí imágenes de la app en funcionamiento si deseas)
 
-📦 Requisitos
+Requisitos
 Python 3.x
 
 Kivy >= 2.0.0
@@ -15,8 +15,7 @@ bash
 Copiar
 Editar
 pip install kivy
-🚀 ¿Cómo usar?
-Clona o descarga este repositorio.
+
 
 Asegúrate de tener la carpeta images/ con las imágenes:
 
@@ -32,7 +31,7 @@ Editar
 python appmovil.py
 
 
-🎨 Funcionalidades
+Funcionalidades
 Selector de comida: Desplegable con diferentes platillos disponibles y sus precios.
 
 Agregar comida: Añade el platillo seleccionado a la lista de pedidos.
@@ -43,7 +42,7 @@ Mostrar resumen: Muestra una ventana emergente con el total a pagar por los plat
 
 Diseño personalizado: Fondo de pantalla y personalización de elementos gráficos.
 
-🍽️ Lista de Comidas y Precios
+--Lista de Comidas y Precios
 python
 Copiar
 Editar
@@ -55,23 +54,8 @@ comidas = {
     "arroz": 5
 }
 
-
-📁 Estructura de Archivos
-css
-Copiar
-Editar
-RestaurantApp/
-├── appmovil.py
-├── images/
-│   ├── main.png
-│   └── arrow_down.png
-└── README.md
-✨ Notas
-La ventana se establece en un tamaño fijo de 300x600 px.
-
 La aplicación usa BoxLayout, GridLayout, ScrollView, Spinner, y Popup para su interfaz.
 
 Puedes personalizar las comidas o los precios modificando el diccionario comidas en appmovil.py.
 
-📝 Licencia
 Este proyecto se distribuye bajo la licencia MIT.
